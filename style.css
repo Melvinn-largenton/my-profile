@@ -1,0 +1,108 @@
+body{
+ 	background-color: #a5a58d;
+ 	color: 736f72;
+ 	font-family: Calibri light;
+ }
+
+ h1, h2, h3 {
+	color: grey;
+	font-family: Gabriola;
+}
+
+h1 {
+	color: bea8a7;
+	font-family: Calibri light, Helvetica; 
+	font-weight: 100;
+	letter-spacing: 5;
+}
+
+.profilPic {
+	width: 150px;
+	border-radius: 50%;
+}
+
+div {
+	margin: 10px;
+}
+
+div .card-white {
+	
+}
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600;
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	text-align: center;
+}
+.btn-blue {
+	background-color: black;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-decoration: none;
+}
+.btn-blue:hover {
+	opacity: 0.7;
+	background-color: pink;
+	color: black;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    }
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline; 
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230, 230, 239);
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
